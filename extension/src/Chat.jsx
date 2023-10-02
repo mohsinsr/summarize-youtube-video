@@ -2,6 +2,7 @@ import { useChat } from 'ai/react';
 import { useEffect, useRef } from 'react';
 
 // NOTE: If deploying remotely, change this to the server's URL.
+// See https://sdk.vercel.ai/docs/api-reference/use-chat for more information.
 const CHAT_API_ENDPOINT = 'http://localhost:3000/api/chat';
 
 export default function Chat({ info: { transcript, metadata } }) {
